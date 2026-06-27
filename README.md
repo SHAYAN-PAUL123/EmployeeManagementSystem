@@ -1,16 +1,116 @@
-# React + Vite
+# Employee Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern Employee Management System built using **React**, **Vite**, and **Tailwind CSS**. The application allows administrators to manage employees and their tasks through a simple and responsive interface.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Admin and Employee dashboards
+* User authentication and login system
+* Create and assign tasks to employees
+* Track task status:
 
-## React Compiler
+  * New Tasks
+  * Active Tasks
+  * Completed Tasks
+  * Failed Tasks
+* Responsive UI
+* Data persistence using browser local storage
+* Context API for state management
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+* React.js
+* Vite
+* JavaScript (ES6+)
+* Tailwind CSS
+* React Context API
+* Local Storage
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Project Structure
+
+```text
+src/
+├── components/
+│   ├── auth/
+│   ├── Dashboard/
+│   ├── Header/
+│   └── TaskList/
+├── context/
+├── utils/
+├── App.jsx
+└── main.jsx
+```
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/SHAYAN-PAUL123/EmployeeManagementSystem.git
+```
+
+Move into the project directory:
+
+```bash
+cd EmployeeManagementSystem
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+The application will run on:
+
+```text
+http://localhost:5173
+```
+
+## 🔑 Demo Credentials
+
+### Admin
+
+```text
+Email: admin@me.com
+Password: 123
+```
+
+### Employee
+
+Use the credentials available in the local storage data or employee dataset.
+
+## 📸 Screenshots
+
+Add screenshots of:
+
+* Login Page
+* Admin Dashboard
+* Employee Dashboard
+* Task Management Interface
+
+## 🎯 Future Improvements
+
+* Backend integration with Node.js and MongoDB
+* JWT Authentication
+* Role-based access control
+* Task notifications
+* Search and filtering
+* Analytics dashboard
+
+## 👨‍💻 Author
+
+**Shayan Paul**
+
+* GitHub: https://github.com/SHAYAN-PAUL123
+* LinkedIn: Add your LinkedIn profile link here.
+
+## ⭐ Support
+
+If you like this project, consider giving it a star on GitHub!
